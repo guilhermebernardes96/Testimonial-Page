@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sora", sans-serif;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #FAFAF9;
+}
+
+.content .content1 {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+
+.content .content1 .star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5C044;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.content .content1 h1 {
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.content .content1 .paragrafo {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 35px;
+    color: #52525A;
+}
+
+.content .content1 .paragrafoCheck {
+    font-size: 14px;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;    
+    color: #52525A;
+}
+
+.content .content1 .paragrafoCheck .check {
+    margin-right: 10px;
+}
+
+.content .content2, .content3 {
+    width: 335px;
+    padding: 25px 25px 25px 35px;
+    margin: 15px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.content .content2 {
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+.content .content2 .logoStar, .content3 .logoStar {
+    display: flex;
+    align-items: center;
+}
+
+.content .content2 .logoStar img, .content3 .logoStar img  {
+    margin: 0 8px 12px 0;
+    
+}
+
+.content .content2 .logo, .content3 .logo {
+    width: 80px;
+}
+
+.content .content2 .name, .content3 .name {
+    color: #18181B;
+}
+
+.content .content2 p, .content3 p {
+    margin-bottom: 8px;
+    line-height: 1.5;
+    color: #52525A;
+}
+
+@media only screen and (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        height: 140vh;
+    }    
+}
+  
